@@ -1,0 +1,13 @@
+/* Write your CSS code here */
+
+.profile-history-card {
+  width: 65%;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 576px) {
+  .profile-history-card {
+    width: 80%;
+    margin-bottom: 10px;
+  }
+}

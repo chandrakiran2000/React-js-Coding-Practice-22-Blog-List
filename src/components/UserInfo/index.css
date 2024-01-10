@@ -1,0 +1,32 @@
+/* Write your CSS code here */
+.profile-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.profile-img {
+  height: 200px;
+}
+.profile-name-heading {
+  font-size: 30px;
+  color: #12022f;
+}
+.profile-designation-para {
+  font-size: 20px;
+  color: #616e7c;
+}
+
+@media (max-width: 576px) {
+  .profile-name-heading {
+    font-size: 20px;
+    color: #12022f;
+  }
+  .profile-designation-para {
+    font-size: 15px;
+    color: #616e7c;
+  }
+  .profile-img {
+    height: 100px;
+  }
+}

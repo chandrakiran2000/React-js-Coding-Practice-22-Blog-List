@@ -1,0 +1,44 @@
+/* Write your CSS code here */
+
+.each-history-card {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #9aa5b1;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+.num-date-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.history-heading {
+  font-size: 30px;
+  color: #12022f;
+}
+.history-date {
+  font-size: 20px;
+  color: #616e7c;
+}
+.history-para {
+  font-size: 20px;
+  color: #616e7c;
+}
+
+@media (max-width: 576px) {
+  .profile-history-card {
+    width: 90%;
+  }
+  .history-heading {
+    font-size: 13px;
+    color: #12022f;
+  }
+  .history-date {
+    font-size: 10px;
+    color: #616e7c;
+  }
+  .history-para {
+    font-size: 10px;
+    color: #616e7c;
+  }
+}
